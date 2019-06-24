@@ -1,0 +1,7 @@
+version: "2"
+services:
+  ruby-app:
+    container_name: ruby-app
+    build: .
+    volumes:
+      - .:/app
