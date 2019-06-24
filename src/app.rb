@@ -13,4 +13,5 @@ end
 
 puts '', 'Best lap overall:'
 best_lap_data = statistics.best_lap_driver_results
-puts "#{best_lap_data.best_lap_time} by #{best_lap_data.name} on lap #{best_lap_data.best_lap_number}"
+puts "#{best_lap_data.best_lap_time} by #{best_lap_data.name}"\
+     " on lap #{best_lap_data.best_lap_number}"

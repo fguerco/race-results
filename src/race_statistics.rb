@@ -3,7 +3,7 @@
 # This object holds statistics from the race
 class RaceStatistics
   attr_reader :data
-  
+
   def initialize(race_data)
     @data = race_data.sort do |a, b|
       a.last_lap.time <=> b.last_lap.time
